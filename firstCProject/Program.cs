@@ -32,6 +32,12 @@ namespace firstCProject
 					x2+=2;
 			}
 			Console.WriteLine ("while loop answer: {0}",count);
+			for (int x3 = 1; x3 < 8; x3++)
+			{
+				if (x3 > 5)
+					break;
+				Console.WriteLine(x3);
+			}
 		}
 	}
 }
