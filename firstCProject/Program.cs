@@ -32,12 +32,30 @@ namespace firstCProject
 					x2+=2;
 			}
 			Console.WriteLine ("while loop answer: {0}",count);
-			for (int x3 = 1; x3 < 8; x3++)
+			Console.Clear ();
+			//print only even number
+			for (int c =0; c<99; c++) 
 			{
-				if (x3 > 5)
-					break;
-				Console.WriteLine(x3);
+				if (c % 2 != 0)
+					continue;
+				Console.WriteLine (c);
 			}
+			Console.Clear ();
+			int x3 = 5;int y3 = 12;
+			if (x > 10 || y / x > 1)
+				Console.Write (y3 - x3);
+			else
+				Console.Write (y3);
+			Console.Clear ();
+			//the ?: operator
+			int age2 = 42;
+			string msg;
+			msg = (age2 >= 18) ? "Welcome" : "Sorry";
+			Console.WriteLine (msg);
+			Console.Clear ();
+			int x4 = 4;int y4 = 9;
+			x4 = (y4 % x4 != 0) ? y4 / x4 : y4;
+			Console.WriteLine (x4);
 		}
 	}
 }
