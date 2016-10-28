@@ -56,6 +56,14 @@ namespace firstCProject
 			int x4 = 4;int y4 = 9;
 			x4 = (y4 % x4 != 0) ? y4 / x4 : y4;
 			Console.WriteLine (x4);
+			Console.Clear ();
+			Console.WriteLine ("5 squared is {0}", Sqr (5));
+		}
+		//square the number 
+		static int Sqr(int x)
+		{
+			int result = x * x;
+			return result;
 		}
 	}
 }
