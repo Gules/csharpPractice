@@ -58,6 +58,9 @@ namespace firstCProject
 			Console.WriteLine (x4);
 			Console.Clear ();
 			Console.WriteLine ("5 squared is {0}", Sqr (5));
+			Console.WriteLine (Vol (2, 4));
+			Console.WriteLine(Area(l:5,w:8));
+
 		}
 		//square the number 
 		static int Sqr(int x)
@@ -65,5 +68,14 @@ namespace firstCProject
 			int result = x * x;
 			return result;
 		}
+		static int Vol(int x,int y=3,int z=1)
+		{
+			return x * y * z;
+		}
+		static int Area(int w, int l)
+		{
+			return l * w;
+		}
+
 	}
 }
