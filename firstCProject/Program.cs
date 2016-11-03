@@ -78,9 +78,13 @@ namespace firstCProject
 			Console.WriteLine (array [0]);
 			string[] names = { "john", "Mary", "Phil" };
 			Console.WriteLine(names[1]);
-
-
-
+			int[] arr={8,2,6};
+			int y5=0;
+			foreach(int x5 in arr)
+			{
+				y5+=x5/2;
+			}
+			Console.Write(y5);
 
 		}
 		class Person
